@@ -111,7 +111,7 @@ export default function Hero() {
             >
               <motion.button
                 onClick={() => scrollToSection('contact')}
-                className="btn-primary bg-white text-primary-600 hover:bg-white inline-flex items-center justify-center space-x-2"
+                className="btn-primary bg-white text-primary-600 hover:bg-gray-100 inline-flex items-center justify-center space-x-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
